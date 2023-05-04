@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Abhilasha Rana About Me</title>
+    <!--HW 18. Added My Skills section on About Me page-->
+        <link rel="icon" href="HOrangeLogo.png" />
+        <link rel="Stylesheet" href="CSS/style.css" type="text/css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Poppins:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--Navbar Section   -->
+<header class="navigation">
+    <div class="logoDisplay"><img src="./Images/HOrangeLogo.png" class="logo" /></div>
+    <nav >
+       <ul >
+         <li ><a style="color:#422828" href="index.html">Portfolio</a></li>
+           <li style="color:#FF8C00" >About Me</li>
+           <li><a style="color:#422828" href="mailto:abhilasha.rana@gmail.com">Contact</a></li>
+           <li> <a href="./Documents/AbhilashaRanaUXUIResume2CareerServ.pdf">
+            <button> Download Resume </button>
+          </a> </li>
+       </ul>
+    </nav>
+  </header>
+<!--B. Hero img-->
+<!--HW18>>My Skills below Hero img>>About me sec-->
+<section class="heroImg">
+<h1>About Me</h1>
+<div class="addPadding">
+   <img  src="./Images/YellowProfile pic.png" alt="Abhilasha Rana's photo" />
+  <p>I am a results-driven UX/UI designer with a deep passion for human-centered design. 
+   With my extensive learnings in the field, I have honed my skills in user research, wireframing, prototyping, and creating intuitive 
+   designs that prioritize the user experience.
+   <br><br>
+   My design philosophy centers around the user, which is why I am committed to understanding their needs and behaviors before starting 
+   any project. I also place a strong emphasis on collaboration and communication to ensure that the final product meets both the user's 
+   needs and the client's goals.
+   <br><br>
+   In addition to my technical skills, I possess a keen eye for aesthetics and strive to create designs that are visually stunning, 
+   functional, and user centric. I am always up-to-date with the latest design trends and tools, enabling me to provide cutting-edge 
+   solutions to my clients.
+   <br><br>
+   Beyond design, I am deeply curious about human behavior and enjoy exploring new cultures and perspectives. 
+   I believe that a diverse range of experiences enriches my work and helps me better understand the needs of users from different 
+   backgrounds.
+   Overall, I am a dedicated and skilled UX/UI designer with a passion for creating user-centric 
+   designs. If you are looking for a collaborative and results-driven designer, I would love to hear 
+   from you.
+  
+ </p>
+<br><br>
+   <hr class="smallHRstyle">
+</div>
+
+<!-- HW18- My Skills section coded with CSS flex-->
+
+<h1>My Skills</h1>
+ <div class="flexContainer"> 
+   
+      <div class="userResearch">
+         <br>
+         <img src="./Images/Researchpana.png" />
+         <h4>User Research</h4>
+         <p>I start my research with research goals at the outset to identify user needs, pain points, and behavior, following a comprehensive project assessment. My process includes following but not limited to it.
+            The insights obtained from User Research are utilized to cultivate empathy for the user 
+            and gain a deeper understanding of their perspective and needs, through the application of
+             various tools and techniques.
+            <br><br><br>
+
+            </p>
+      </div>
+
+     <div class="userInterfaceDesign">
+      <br>
+         <img src="./Images/Designpana.png" style="height:120px " />
+         <h4>User Interface Design</h4>
+         <p>By translating the user insights into creative sketches and visual ideas, resulting in innovative designs that are thoroughly prototyped and ready for implementation, my focus is on user-centered design. 
+            As an expert in user interface design, I have a keen eye for detail and an ability to create visually appealing interfaces 
+            that are intuitive and easy to use. My experience in techniques like visual hierarchy and
+             responsive design allows me to create cohesive and optimized user experiences across 
+             different devices and screen sizes.
+        </p>
+     </div>
+
+     <div class="webDevelopment">
+      <br>
+        <img src="./Images/Devpana.png" />
+        <h4>Web Development</h4>
+        <p>My proficiency in HTML, CSS, JavaScript, jQuery, and Bootstrap allows me to create visually appealing designs with smooth and responsive user interfaces. My ability to effectively use these tools in combination with my design skills results in polished and engaging interfaces that are both functional and aesthetically pleasing.</p>
+     <br><br><br><br>
+    </div>
+ 
+ </div>
+
+ <hr class="smallHRstyle">
+
+</section>
+
+
+<!--C. Footer-->
+<!--HW 19- Interactive Form Accordian-->
+<br>
+
+<section>
+      
+      <div class="contactForm">
+         <h2>Contact</h2>
+        <p><span style="font-weight: bold;font-size: medium">abhilasha.rana@gmail.com</span><br>
+         <span style="font-weight: lighter;font-size: medium">I would love to hear from you. Please fill out the form below. </span>
+        </p>
+      </div>
+       <div class="form-container">
+            <button class="expandable"> Click here to collapse the form </button>
+         
+            <div class="form-content"> 
+             <form>
+               <label for="fname">First Name:</label>
+               <input type="text" id="fname" name="firstname" placeholder="Your first name.." required>
+               <label for="lname">Last Name</label>
+		         <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+               <label for="email">Email</label>
+               <input type="email" id="email" name="email" placeholder="Your email.." required>
+               <label for="message">Message</label>
+               <textarea id="message" name="message" placeholder="Write something.." style="height:200px" required></textarea>
+             </form>
+             <button id="submitButton" type="submit">Submit</button>
+            </div>
+            
+       
+
+     </div>
+
+   <!--Footer navigation section-->
+
+     <footer class="footerNav">
+       <div class="logoDisplay"><img src="Images/HOrangeLogo.png" class="logo" /></div>
+       
+      
+       <nav >
+         <ul >
+             <li> <a href="index.html"></a>Portfolio </li>
+             <li><a href="aboutMe.html"></a>About Me</li>
+             <li ><a style="color:#fefefe" href="mailto:abhilasha.rana@gmail.com">Contact </a></li>
+             
+             <li> <a href="./Documents/AbhilashaRanaUXUIResume2CareerServ.pdf">
+              <button> Download Resume </button>
+            </a> </li>
+         </ul>
+  
+   </footer>
+</section>
+
+
+    
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/index.js"></script>
+</html>

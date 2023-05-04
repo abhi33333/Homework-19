@@ -1,0 +1,462 @@
+
+/** HW 19  **/
+
+.contactForm{
+ display:flex;
+ flex-direction: column;
+ align-items: center;
+ margin: 0;
+ margin-left: 30px;
+ margin-right: auto;
+ margin-bottom: 20px;
+ max-width: 1150px;
+ height: auto;;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ color: #422828;
+
+}
+
+.form-container {
+    margin: 0;
+ margin-left: 30px;
+ margin-right: 30px;
+ margin-bottom: 30px;
+ max-width: 1150px;
+ min-height: 40px;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ color: #422828;
+
+
+    border: .05px solid #f2f2f2;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    padding: 20px;
+    
+  }
+
+
+.expandable,
+.collapsible {
+    
+  background-color: #42282890;
+  color: whitesmoke;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  float:right;
+}
+
+.active,
+.expandable:hover,
+.collapsible:hover {
+  background-color: #422828;
+}
+
+
+  .form-content {
+    margin: auto;
+    max-width: 500px;
+    padding:30px;
+    border: 0 solid #f2f2f2;
+    border-radius: 5px;
+    background-color: white;
+  }
+
+  #plusImg{
+
+    height: 30px;
+    width:30px;
+    align-items: right;
+  }
+
+ 
+
+input[type=text], input[type=email], textarea {
+    width: 96%;
+    padding: 12px;
+    border: 2px solid #ff8c0080;
+    border-radius: 4px;
+    resize: vertical;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #422828;
+}
+#message{
+
+margin-bottom: 20px;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+#submitButton[type=submit] {
+    background-color: #FF8C00;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+
+/** HW 18 My Work section-Portfolio page  **/
+
+
+.gridContainer{
+
+    display:grid;
+    height:200vh;
+    width:70%;
+    padding-left:  13rem; ;
+    padding-right: 13rem;
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-areas: 
+    'caseStudy1 caseStudy2'
+     'caseStudy3 caseStudy4'
+    ;
+
+}
+
+.ReadMorebutton{
+    display: inline-block;
+    background-color: #FFFEFE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+     border: none;
+     color: #422828;
+     text-align: center;
+    text-decoration: none;
+    padding: 16px 20px;
+    font-size: 14px;
+     
+    }
+
+.caseStudyImg {
+ height:auto;
+ width: 200px;
+  }
+
+.caseStudyMobileImg{
+   height:150px;
+   width: auto; 
+  }
+
+.caseStudy1{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center ;
+    background: #FF8C0090;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+/** RowStart/ColStart/RowEnd/ColEnd **/
+/**grid-area: 1/1/1/2; **/
+padding-bottom: 10px;
+grid-area: caseStudy1;
+
+}
+
+.caseStudy2{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center ;
+background: #FF260090;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+/**grid-area: 1/2/1/2;**/
+padding-bottom: 10px;
+grid-area: caseStudy2;
+}
+
+.caseStudy3{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center ;
+background: #FF260090;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;  
+grid-area: 2/1/2/2;
+padding-bottom: 10px;
+grid-area: caseStudy3;
+ }
+
+.caseStudy4{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center ;
+background: #FF8C0090;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+grid-area: 2/2/2/2;
+padding-bottom: 10px;
+grid-area: caseStudy4;
+}
+
+
+/** HW 18  My Skill section-About Me page  **/
+
+
+.flexContainer{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    height:auto;
+    gap:2rem;
+    margin: 20px 30px 30px 30px;
+    padding-bottom: 30px;
+
+}
+.userResearch{
+    flex:1;
+    max-width: 33%;
+    padding:20px;
+    background-color: #f4ca96;
+    border-radius: 5px;
+    text-align:center;
+   
+}
+
+.userInterfaceDesign{
+    flex:1;
+    max-width: 33%;
+    padding:20px;
+    background-color: #f4ca96;
+   
+    border-radius: 5px;
+    text-align:center;
+
+}
+.webDevelopment{
+    flex:1;
+    max-width: 33%;
+    padding:20px;
+    background-color: #f4ca96;
+    border-radius: 5px;
+    text-align:center;
+}
+
+.smallHRstyle{
+    
+    
+    background-color: #FF8C00;
+    width: 50%;
+    height: 2px;
+    border: none;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+/** HW 17 **/
+
+
+.addPadding{
+    display: block;
+    align-items: center;
+    width: 80%;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.addPadding p{
+    font-size: auto;
+    margin-inline-start: 200px;
+    margin-inline-end: 30px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    
+
+ }
+
+ .addPadding img{
+    width: 200px;
+    float: right;
+    margin: 5px 0px 20px 20px;
+    border-radius: 8px;
+    /**box-shadow: 4px 4px 8px #CECECE; **/
+   
+ }
+
+
+
+.navigation{
+    background-color:#FFFEFE ;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 4px 8px #CECECE;
+    flex-direction: row;
+   justify-content: space-between;
+    padding: 0px 16px 0px 16px;
+     height: 80px;
+  
+}
+
+.logo{
+    width: 40%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+   
+
+}
+
+.logoDisplay{
+    display: inline-block;
+    color:#422828;
+}
+
+nav {
+   
+    display: inline-block;
+    margin: 10px;
+
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-decoration: none;
+    align-items: baseline;
+
+}
+
+
+li{
+    display: inline-block;
+    padding: 11px 11px;
+   
+    }
+
+
+a {
+        text-decoration: none;
+       
+    }
+
+
+    
+button {
+        background-color: #FF2600; /* red */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 8px;
+      }
+
+
+      button[type=submit]:hover {
+        background-color: #FF260080;
+    }
+    
+
+body {
+    background-color: white;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    height:auto;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #422828;
+    box-shadow: 0px 0px 10px #CECECE;
+}
+
+.footerNav{
+    background-color:#422828 ;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 16px 0px 16px;
+    height: 80px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: white;
+
+}
+
+.heroImg{
+    text-align:center;
+    height: auto;
+    
+
+}
+
+img {
+ 
+    display: inline-block;
+    width: 130px;
+    height:auto;
+    padding: 10px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+
+p{
+    margin: 30px;
+    font-size: small;
+}
+/** HW 18 Media Queries**/
+
+
+@media (max-width:600px) {
+
+  
+    .flexContainer {
+        flex-direction:column;
+        width:100%;
+        align-items: center;
+        
+      
+        
+    }
+    .userResearch, .userInterfaceDesign, .webDevelopment{
+        max-width: 80%;
+        
+    }
+   
+    .gridContainer{
+        display:grid;
+        height:auto;
+        padding-left: 7rem;
+        padding-right: 3rem;
+       
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr ;
+       grid-template-areas: 
+       'caseStudy1'
+       'caseStudy2'
+       'caseStudy3'
+       'caseStudy4';
+       
+    
+    
+    }
+    .caseStudy1, .caseStudy2, .caseStudy3, .caseStudy4{
+        max-width: 80%;
+    }
+
+}
