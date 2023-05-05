@@ -17,20 +17,18 @@
 }
 
 .form-container {
-    margin: 0;
- margin-left: 30px;
- margin-right: 30px;
+ margin: 0;
+ margin-left: 300px;
+ margin-right: 300px;
  margin-bottom: 30px;
  max-width: 1150px;
  min-height: 40px;
  font-family: 'Plus Jakarta Sans', sans-serif;
  color: #422828;
-
-
-    border: .05px solid #f2f2f2;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 8px;
-    padding: 20px;
+ border: .05px solid #f2f2f2;
+ box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+ border-radius: 8px;
+ padding: 20px;
     
   }
 
@@ -65,14 +63,6 @@
     background-color: white;
   }
 
-  #plusImg{
-
-    height: 30px;
-    width:30px;
-    align-items: right;
-  }
-
- 
 
 input[type=text], input[type=email], textarea {
     width: 96%;
@@ -110,7 +100,7 @@ label {
 .gridContainer{
 
     display:grid;
-    height:200vh;
+    
     width:70%;
     padding-left:  13rem; ;
     padding-right: 13rem;
@@ -307,21 +297,7 @@ grid-area: caseStudy4;
   
 }
 
-.logo{
-    width: 40%;
-    padding: 1%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-   
 
-}
-
-.logoDisplay{
-    display: inline-block;
-    color:#422828;
-}
 
 nav {
    
@@ -358,7 +334,7 @@ button {
         background-color: #FF2600; /* red */
         border: none;
         color: white;
-        padding: 15px 32px;
+        padding: 15px 30px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -405,7 +381,6 @@ body {
 }
 
 img {
- 
     display: inline-block;
     width: 130px;
     height:auto;
@@ -413,11 +388,52 @@ img {
     overflow-clip-margin: content-box;
     overflow: clip;
 }
+#portfolioImg{
+
+   width: 120px;
+}
+
+
+
+#logoImg{
+    display: inline-block;
+    color:#422828;
+    margin-left: 20px;
+    width: 40px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
 
 
 p{
     margin: 30px;
-    font-size: small;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 34px; 
+    font-weight: bold;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h3{
+
+    font-size: 28px;
+    font-weight: bold;
+}
+
+h4{
+
+    font-size: 24px;
+    font-weight: bold;
 }
 /** HW 18 Media Queries**/
 
@@ -458,5 +474,36 @@ p{
     .caseStudy1, .caseStudy2, .caseStudy3, .caseStudy4{
         max-width: 80%;
     }
+
+    .form-container{
+        margin-left: 2px;
+        margin-right:2px;
+        
+    }
+   
+
+      .expandable, .collapsible {
+        display: block;
+        padding: 12px 20px;
+       
+        font-size: 1.2em;
+       
+      }
+    
+      .form-content {
+        display: block;
+        max-width:400px;
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+     
+
+
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+      }
 
 }
